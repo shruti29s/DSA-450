@@ -20,9 +20,9 @@ public class moveNeg_no{
             if(arr[i]<0)
             {
                 int temp=arr[i];
-                arr[i]=arr[j];
-                arr[j]=temp;
-                j++;
+                arr[i]=arr[l];
+                arr[l]=temp;
+                l++;
             }
         }
 

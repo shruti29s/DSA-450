@@ -16,8 +16,8 @@ public class kthSmallestElement {
         //By sorting the array
         //Time Complexity: O(nlogn)
         //Space Complexity: O(1)
-        Arrays.sort(a);
-	    System.out.println(a[k-1]);
+        Arrays.sort(arr);
+	    System.out.println(arr[k-1]);
 
         /**********     METHOD 2       ********** */
         
